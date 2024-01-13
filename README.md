@@ -72,7 +72,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
 
 ### For checking those installed or not:
-service kubelet status (will not active because it is waiting for kubeadm initializing)
+service kubelet status (will not active because it is waiting for kubeadm initializing) 
 kubeadm --help
 kubeadm version
 kubectl version
